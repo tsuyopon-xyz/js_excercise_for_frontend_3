@@ -1,9 +1,6 @@
 /**
  * 課題1: id属性値が `main` のdiv要素ににul要素を追加する
  */
-const ulElement = document.createElement('ul');
-const mainDivElement = document.getElementById('main');
-mainDivElement.appendChild(ulElement);
 
 /**
  * 課題2: 課題1で作成したul要素に5つのli要素(DOM)を追加する

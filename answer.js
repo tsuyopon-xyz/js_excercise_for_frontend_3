@@ -30,7 +30,7 @@ mainDivElement.appendChild(ulElement);
  *     - https://developer.mozilla.org/ja/docs/Web/API/ParentNode/children
  */
 (() => {
-  deletedIndex = 3;
+  const deletedIndex = 3;
   const targetElement = ulElement.children[deletedIndex];
   ulElement.removeChild(targetElement);
 })();
